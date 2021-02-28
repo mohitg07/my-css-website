@@ -1,0 +1,123 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  color: #40514E;
+}
+
+/* below is the syntax to make dotted line  */
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-width: 10px;
+  color: #d2ebeb;
+  margin: 70px auto 70px auto;
+}
+
+.top-container{
+  background-color: #AEF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  left: 75%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 55%;
+  left: 14%;
+}
+
+.my-pic{
+  width: 20%;
+  margin-top: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px 20px;
+  margin: 40px auto;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  height: 90px;
+  padding: 50px;
+}
+
+a{
+  color: #11999E;
+  margin: 30px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-para{
+  color: white;
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
